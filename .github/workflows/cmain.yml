@@ -1,11 +1,12 @@
-name: CI
+name: NetSlutter
 
+on: workflow_dispatch
 
-on: [push, workflow_dispatch]
 jobs:
   build:
 
-    runs-on: windows-2016
+    runs-on: windows-2019
+  
     timeout-minutes: 9999
 
     steps:
